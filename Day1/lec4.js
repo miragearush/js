@@ -3,6 +3,8 @@ let email="arush@mail.com";
 var age=24; // instead use let 
 password="mypass"; // this is also correct but don't use it
 
+let temp //it will have value undefined 
+
 console.log(name);
 console.log(email);
 console.log(age);
