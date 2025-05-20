@@ -41,3 +41,25 @@ console.log(typeof myFun);//function : actually it's function object
 
 // js is dynamically typed since type of variable is determined at runtime
 //we don't need to declare type of variable explicitly
+
+//stack and heap 
+
+//primitive types are stored in stack and copy are created 
+let name="arush";
+let yourname=name;
+yourname="monika";
+
+console.log(name);
+console.log(yourname);
+
+//non-primitive are stored in heap and reference is passed change in one reflects in other too
+
+let userOne={
+    name:"arush",
+    email:"arush@mail.com"
+}
+let userTwo=userOne;
+userTwo.name="monika";
+
+console.log(userOne.name);
+console.log(userTwo.name);
