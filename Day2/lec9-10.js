@@ -49,8 +49,8 @@ let name="arush";
 let yourname=name;
 yourname="monika";
 
-console.log(name);
-console.log(yourname);
+console.log(name);//arush
+console.log(yourname);//monika
 
 //non-primitive are stored in heap and reference is passed change in one reflects in other too
 
@@ -61,5 +61,5 @@ let userOne={
 let userTwo=userOne;
 userTwo.name="monika";
 
-console.log(userOne.name);
-console.log(userTwo.name);
+console.log(userOne.name);//monika
+console.log(userTwo.name);//monika
